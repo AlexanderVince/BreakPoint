@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>QUnit Tests</title>
+  <!-- <link rel="stylesheet" href="//code.jquery.com/qunit/qunit-1.18.0.css"> -->
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <!-- // <script src="//code.jquery.com/qunit/qunit-1.18.0.js"></script> -->
+  <script src="../src/breakpt.js"></script>
+  <script>
+    BreakPoint.set([400, 600, 800, 1000, 1200, 1400]);
+    document.addEventListener('EnterBreakpoint/1000', function() {
+      console.log('Event enter-1000');
+    }, false);
+    document.addEventListener('ExitBreakpoint/1000', function() {
+      console.log('Event exit-1000');
+    }, false);
+  </script>
+</body>
+</html>
