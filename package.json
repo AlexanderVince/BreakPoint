@@ -4,7 +4,7 @@
   "description": "",
   "author": "Alexander Vince <https://github.com/AlexanderVince>",
   "license" : "BSD 3-Clause <http://opensource.org/licenses/BSD-3-Clause>",
-  "banner" : "/**\n * breakpt.js\n * \n * @author Alexander Vince https://github.com/AlexanderVince \n * @copyright 2015 Alexander Vince \n * @license BSD 3-Clause <http://opensource.org/licenses/BSD-3-Clause>\n *\n */\n",
+  "banner" : "/**\n * breakpoint.js\n * \n * @author Alexander Vince https://github.com/AlexanderVince \n * @copyright 2015 Alexander Vince \n * @license BSD 3-Clause <http://opensource.org/licenses/BSD-3-Clause>\n *\n */\n",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-connect": "^0.10.1",
